@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { shallowMount } from '@vue/test-utils';
 import PocButton from '@/components/Button.vue';
 
