@@ -1,0 +1,93 @@
+:root {
+  /* Primitives */
+  --color-blue-50: #e6f0ff;
+  --color-blue-75: #96c0ff;
+  --color-blue-100: #6ba6ff;
+  --color-blue-200: #2b7fff;
+  --color-blue-300: #0065ff;
+  --color-blue-400: #0047b3;
+  --color-blue-500: #003e9c;
+  --color-red-50: #fcebe7;
+  --color-red-75: #f1ac9b;
+  --color-red-100: #ec8a71;
+  --color-red-200: #e45734;
+  --color-red-300: #de350b;
+  --color-red-400: #9b2508;
+  --color-red-500: #872007;
+  --color-neutral-0: #ffffff;
+  --color-neutral-10: #fafbfb;
+  --color-neutral-20: #f5f6f7;
+  --color-neutral-30: #ebedf0;
+  --color-neutral-40: #dfe2e6;
+  --color-neutral-50: #c2c7d0;
+  --color-neutral-60: #b3b9c4;
+  --color-neutral-70: #a6aebb;
+  --color-neutral-80: #98a1b0;
+  --color-neutral-90: #8993a4;
+  --color-neutral-100: #7a8699;
+  --color-neutral-200: #6b788e;
+  --color-neutral-300: #5d6b82;
+  --color-neutral-400: #505f79;
+  --color-neutral-500: #42526d;
+  --color-neutral-600: #354764;
+  --color-neutral-700: #243757;
+  --color-neutral-800: #15294b;
+  --color-neutral-900: #091e42;
+  --padding-sm: 6px;
+  --padding-md: 10px;
+  --padding-lg: 12px;
+  --padding-xl: 14px;
+  --padding-xxl: 16px;
+  --border-radius-sm: 2px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 8px;
+  --border-radius-xl: 12px;
+
+  /* Semantic */
+  --brand-secondary: var(--color-blue-200);
+  --brand-brand: var(--color-blue-300);
+  --brand-contrast: var(--color-blue-400);
+  --danger-secondary: var(--color-red-200);
+  --danger-default: var(--color-red-300);
+  --danger-contrast: var(--color-red-400);
+  --surface-primary: var(--color-neutral-0);
+  --surface-secondary: var(--color-neutral-20);
+  --surface-low-contrast: var(--color-neutral-40);
+  --surface-high-constrast: var(--color-neutral-50);
+  --text-primary: var(--color-neutral-900);
+  --text-secondary: var(--color-neutral-200);
+  --text-disabled: var(--color-neutral-80);
+  --text-invert: var(--color-neutral-0);
+
+  /* Components */
+  --button-primary-default: var(--brand-brand);
+  --button-primary-hover: var(--brand-secondary);
+  --button-primary-pressed: var(--brand-contrast);
+  --button-disabled: var(--surface-secondary);
+  --button-danger-default: var(--danger-default);
+  --button-danger-hover: var(--danger-secondary);
+  --button-danger-pressed: var(--danger-contrast);
+  --button-secondary-default: var(--surface-secondary);
+  --button-secondary-hover: var(--surface-low-contrast);
+  --button-secondary-pressed: var(--surface-high-constrast);
+  --button-tertiary-default: var(--surface-primary);
+  --button-tertiary-hover: var(--surface-low-contrast);
+  --button-tertiary-pressed: var(--surface-high-constrast);
+  --button-padding-x-md: var(--padding-lg);
+  --button-padding-y-md: var(--padding-md);
+  --button-padding-x-lg: var(--padding-xl);
+  --button-padding-y-lg: var(--padding-lg);
+  --button-border-radius: var(--border-radius-md);
+  --button-padding-x-sm: var(--padding-md);
+  --button-padding-y-sm: var(--padding-sm);
+  
+
+  /* Typography */
+  --title: 1.5rem;
+  --title-weight-semi-bold: 1.5rem;
+  --subtitle: 1.125rem;
+  --body-size-larger: 1rem;
+  --body: 0.875rem;
+  --small: 0.75rem;
+  --body-weight-medium: 0.875rem;
+}

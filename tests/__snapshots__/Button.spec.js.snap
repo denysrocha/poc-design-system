@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PocButton.vue renders button with correct HTML 1`] = `"<button type="button" class="poc-button poc-button--primary poc-button--medium">Click me</button>"`;
